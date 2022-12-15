@@ -82,7 +82,6 @@ const tasks = new Listr([
 			return new Listr([
 				{
 					title: 'Spotify',
-					enabled: () => false,
 					task: () => execa('brew', ['install', '--cask', 'spotify'])
 				},
 			], {concurrent: true})

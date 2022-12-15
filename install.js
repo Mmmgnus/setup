@@ -98,7 +98,6 @@ const tasks = new Listr([
 				},
 				{
 					title: 'Dash',
-					enabled: () => false,
 					task: () => execa('brew', ['install', '--cask', 'dash'])
 				},
 				{

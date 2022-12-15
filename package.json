@@ -6,6 +6,7 @@
   "bin": "main.js",
   "type": "module",
   "scripts": {
+    "boom": "boom",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Magnus Fredlundh",

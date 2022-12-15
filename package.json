@@ -1,0 +1,16 @@
+{
+  "name": "boom",
+  "version": "1.0.0",
+  "description": "Setup my computer with Node.js",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Magnus Fredlundh",
+  "license": "ISC",
+  "dependencies": {
+    "execa": "^6.1.0",
+    "listr": "^0.14.3"
+  }
+}

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Setup my computer with Node.js",
   "main": "main.js",
-  "bin": "main.js",
+  "bin": "bin.js",
   "type": "module",
   "scripts": {
     "boom": "boom",

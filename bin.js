@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import { install } from './install'
+import { install } from './install.js'
 
 install();

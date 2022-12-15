@@ -48,13 +48,6 @@ const tasks = new Listr([
 						// console.log('result', result)
 					})
 				},
-				{
-					title: 'Things Helper',
-					enabled: () => false,
-					task: () => execa('brew', ['install', '--cask', 'thingsmacsandboxhelper']).then(result => {
-						// console.log('result', result)
-					})
-				},
 			])
 		}
 	},

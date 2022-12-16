@@ -10,7 +10,6 @@ const tasks = new Listr([
 					title: 'Visual Studio Code',
 					task: () => execa('brew', ['install', '--cask', 'visual-studio-code'])
 				},
-				
 				{
 					title: 'Docker',
 					enabled: () => false,
@@ -26,7 +25,6 @@ const tasks = new Listr([
 					enabled: () => false,
 					task: () => execa('brew', ['install', 'gh'])
 				},
-				
 			], {concurrent: true})
 		}
 	},
@@ -59,6 +57,10 @@ const tasks = new Listr([
 					title: 'Google Chrome',
 					enabled: () => false,
 					task: () => execa('brew', ['install', '--cask', 'google-chrome'])
+				},
+				{
+					title: 'Brave',
+					task: () => execa('brew', ['install', '--cask', 'brave-browser'])
 				},
 			], {concurrent: true})
 		}
@@ -104,7 +106,6 @@ const tasks = new Listr([
 					title: '1 Password',
 					task: () => execa('brew', ['install', '--cask', '1password'])
 				},
-				
 				{
 					title: 'Dropbox',
 					task: () => execa('brew', ['install', '--cask', 'dropbox'])

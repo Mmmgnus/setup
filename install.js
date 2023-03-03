@@ -110,6 +110,10 @@ const tasks = new Listr([
 					title: 'Dropbox',
 					task: () => execa('brew', ['install', '--cask', 'dropbox'])
 				},
+				{
+					title: 'Rectangle',
+					task: () => execa('brew', ['install', '--cask', 'rectangle'])
+				}
 			], {concurrent: true});
 		}
 	},

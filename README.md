@@ -6,7 +6,7 @@
 
 ## Usage
 ```
-npx github:mfredlundh/boom
+npx github:mfredlundh/setup
 ```
 
 ## Following apps will be installed

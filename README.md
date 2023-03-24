@@ -1,4 +1,20 @@
 # Install all the applications I use in one go
+```
+npx github:mfredlundh/setup
+Need to install the following packages:
+  github:mfredlundh/boom
+Ok to proceed? (y) y
+  ✔ Install development apps
+  ✔ Install productivity apps
+  ❯ Install browsers
+    ✔ Firefox
+    ⠦ Google Chrome
+    ✔ Brave
+    Install communication
+    Install multimedia
+    Install utilities
+    Install VS Code Extensions
+```
 
 ## Requirements
 - NodeJS

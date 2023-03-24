@@ -55,7 +55,7 @@ const tasks = new Listr([
 				},
 				{
 					title: 'Google Chrome',
-					enabled: () => false,
+					enabled: () => true,
 					task: () => execa('brew', ['install', '--cask', 'google-chrome'])
 				},
 				{

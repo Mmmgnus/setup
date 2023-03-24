@@ -1,8 +1,8 @@
 # Install all the application I use in one go
 
 ## Development apps
-- Visual Studio Code'	
-- Docker'
+- Visual Studio Code
+- Docker
 - Postman
 - Github CLI
 

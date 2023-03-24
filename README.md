@@ -1,4 +1,4 @@
-# Install all the application I use in one go
+# Install all the applications I use in one go
 
 ## Requirements
 - NodeJS

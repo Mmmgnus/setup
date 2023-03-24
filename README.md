@@ -1,34 +1,44 @@
 # Install all the application I use in one go
 
-## Development apps
+## Requirements
+- NodeJS
+- Brew
+
+## Usage
+```
+npx github:mfredlundh/boom
+```
+
+## Following apps will be installed
+### Development apps
 - Visual Studio Code
 - Docker
 - Postman
 - Github CLI
 
-## Productivity apps
+### Productivity apps
 - Obsidian
 - Alfred
 
-## Browsers
+### Browsers
 - Firefox
 - Google Chrome
 - Brave
 
-## Communication
+### Communication
 - Slack
 
-## Multimedia
+### Multimedia
 - Spotify
 
-## Utilities
+### Utilities
 - Warp
 - Dash
 - 1 Password
 - Dropbox
 - Rectangle
 				
-## VS Code Extensions
+### VS Code Extensions
 - Atom Keymap
 - Theme: Copilot Theme
 - Github Copilot

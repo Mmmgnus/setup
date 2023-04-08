@@ -1,8 +1,8 @@
 # Install all the applications I use in one go
 ```
-npx github:mfredlundh/setup
+npx github:mmmgnus/setup
 Need to install the following packages:
-  github:mfredlundh/boom
+  github:mmmgnus/setup
 Ok to proceed? (y) y
   ✔ Install development apps
   ✔ Install productivity apps
@@ -22,7 +22,7 @@ Ok to proceed? (y) y
 
 ## Usage
 ```
-npx github:mfredlundh/setup
+npx github:mmmgnus/setup
 ```
 
 ## Following apps will be installed
